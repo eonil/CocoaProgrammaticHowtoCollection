@@ -8,5 +8,5 @@
 
 #import <Cocoa/Cocoa.h>
 
-@interface DragAndDropTestView : NSView
+@interface DropTestView : NSView
 @end

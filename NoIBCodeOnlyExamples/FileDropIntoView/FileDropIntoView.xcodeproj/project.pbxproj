@@ -10,18 +10,18 @@
 		453DD3A0194B291200302575 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 453DD39F194B291200302575 /* main.m */; };
 		453DD3C0194B2D1A00302575 /* BoilerplateWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = 453DD3BF194B2D1A00302575 /* BoilerplateWindowController.m */; };
 		453DD3C2194B2D7600302575 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 453DD3C1194B2D7600302575 /* README.md */; };
-		453DD3C5194B2E2100302575 /* DragAndDropTestView.m in Sources */ = {isa = PBXBuildFile; fileRef = 453DD3C4194B2E2100302575 /* DragAndDropTestView.m */; };
+		453DD3C5194B2E2100302575 /* DropTestView.m in Sources */ = {isa = PBXBuildFile; fileRef = 453DD3C4194B2E2100302575 /* DropTestView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		453DD318194B230B00302575 /* FileDragAndDrop.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FileDragAndDrop.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		453DD318194B230B00302575 /* FileDropIntoView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FileDropIntoView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		453DD31E194B230B00302575 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
 		453DD39F194B291200302575 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		453DD3BE194B2D1A00302575 /* BoilerplateWindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BoilerplateWindowController.h; sourceTree = "<group>"; };
 		453DD3BF194B2D1A00302575 /* BoilerplateWindowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BoilerplateWindowController.m; sourceTree = "<group>"; };
 		453DD3C1194B2D7600302575 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
-		453DD3C3194B2E2100302575 /* DragAndDropTestView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DragAndDropTestView.h; sourceTree = "<group>"; };
-		453DD3C4194B2E2100302575 /* DragAndDropTestView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DragAndDropTestView.m; sourceTree = "<group>"; };
+		453DD3C3194B2E2100302575 /* DropTestView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DropTestView.h; sourceTree = "<group>"; };
+		453DD3C4194B2E2100302575 /* DropTestView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DropTestView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -39,8 +39,8 @@
 			isa = PBXGroup;
 			children = (
 				453DD3C1194B2D7600302575 /* README.md */,
-				453DD3C3194B2E2100302575 /* DragAndDropTestView.h */,
-				453DD3C4194B2E2100302575 /* DragAndDropTestView.m */,
+				453DD3C3194B2E2100302575 /* DropTestView.h */,
+				453DD3C4194B2E2100302575 /* DropTestView.m */,
 				453DD3BE194B2D1A00302575 /* BoilerplateWindowController.h */,
 				453DD3BF194B2D1A00302575 /* BoilerplateWindowController.m */,
 				453DD39F194B291200302575 /* main.m */,
@@ -52,7 +52,7 @@
 		453DD319194B230B00302575 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				453DD318194B230B00302575 /* FileDragAndDrop.app */,
+				453DD318194B230B00302575 /* FileDropIntoView.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -60,9 +60,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		453DD317194B230B00302575 /* FileDragAndDrop */ = {
+		453DD317194B230B00302575 /* FileDropIntoView */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 453DD349194B230B00302575 /* Build configuration list for PBXNativeTarget "FileDragAndDrop" */;
+			buildConfigurationList = 453DD349194B230B00302575 /* Build configuration list for PBXNativeTarget "FileDropIntoView" */;
 			buildPhases = (
 				453DD314194B230B00302575 /* Sources */,
 				453DD315194B230B00302575 /* Frameworks */,
@@ -72,9 +72,9 @@
 			);
 			dependencies = (
 			);
-			name = FileDragAndDrop;
+			name = FileDropIntoView;
 			productName = NoNIBCodeOnlyGUIAppBootstrapping;
-			productReference = 453DD318194B230B00302575 /* FileDragAndDrop.app */;
+			productReference = 453DD318194B230B00302575 /* FileDropIntoView.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -86,7 +86,7 @@
 				LastUpgradeCheck = 0510;
 				ORGANIZATIONNAME = Eonil;
 			};
-			buildConfigurationList = 453DD313194B230B00302575 /* Build configuration list for PBXProject "FileDragAndDrop" */;
+			buildConfigurationList = 453DD313194B230B00302575 /* Build configuration list for PBXProject "FileDropIntoView" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -99,7 +99,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				453DD317194B230B00302575 /* FileDragAndDrop */,
+				453DD317194B230B00302575 /* FileDropIntoView */,
 			);
 		};
 /* End PBXProject section */
@@ -121,7 +121,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				453DD3C0194B2D1A00302575 /* BoilerplateWindowController.m in Sources */,
-				453DD3C5194B2E2100302575 /* DragAndDropTestView.m in Sources */,
+				453DD3C5194B2E2100302575 /* DropTestView.m in Sources */,
 				453DD3A0194B291200302575 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -204,7 +204,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				COMBINE_HIDPI_IMAGES = YES;
-				PRODUCT_NAME = FileDragAndDrop;
+				PRODUCT_NAME = FileDropIntoView;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -214,7 +214,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				COMBINE_HIDPI_IMAGES = YES;
-				PRODUCT_NAME = FileDragAndDrop;
+				PRODUCT_NAME = FileDropIntoView;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -222,7 +222,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		453DD313194B230B00302575 /* Build configuration list for PBXProject "FileDragAndDrop" */ = {
+		453DD313194B230B00302575 /* Build configuration list for PBXProject "FileDropIntoView" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				453DD347194B230B00302575 /* Debug */,
@@ -231,7 +231,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		453DD349194B230B00302575 /* Build configuration list for PBXNativeTarget "FileDragAndDrop" */ = {
+		453DD349194B230B00302575 /* Build configuration list for PBXNativeTarget "FileDropIntoView" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				453DD34A194B230B00302575 /* Debug */,

@@ -6,7 +6,7 @@
 //  Copyright (c) 2014 Eonil. All rights reserved.
 //
 
-#import "DragAndDropTestView.h"
+#import "DropTestView.h"
 
 
 /*!
@@ -16,7 +16,7 @@
  
  */
 
-@implementation DragAndDropTestView
+@implementation DropTestView
 - (id)initWithFrame:(NSRect)frame
 {
     self	=	[super initWithFrame:frame];

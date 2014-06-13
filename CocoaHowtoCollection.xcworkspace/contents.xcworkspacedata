@@ -14,7 +14,7 @@
          location = "group:MainMenu/MainMenu.xcodeproj">
       </FileRef>
       <FileRef
-         location = "group:FileDragAndDrop/FileDragAndDrop.xcodeproj">
+         location = "group:FileDropIntoView/FileDropIntoView.xcodeproj">
       </FileRef>
    </Group>
 </Workspace>
