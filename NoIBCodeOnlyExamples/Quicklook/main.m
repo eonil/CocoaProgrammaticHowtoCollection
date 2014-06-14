@@ -20,7 +20,8 @@
  Make sure these stuffs.
  
  1.	Setup responder chain correctly so preview panel will begin at desired
-	responder. In this case, a @c QuicklookController instance.
+	responder. In this case, a @c QuicklookController instance. The problem is the
+	system will not raise an error without properly configured chain.
  
  2.	Always hold the provided panel instance in @c beginPreviewPanelControl: method.
 	Otherwise, the panel instance seems to be lost, and a new one can be created, 
