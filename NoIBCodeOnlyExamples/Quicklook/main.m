@@ -19,15 +19,24 @@
  
  Make sure these stuffs.
  
+ 0.	QuickLook is based on various plugins, and some of them may throw an exception.
+	And then, you may get unexpected exceptions while all the QuickLook features 
+	are working properly. Though this is not an official opinion, but I think this
+	is normal. These exceptions are safe to ignore.
+ 
  1.	Setup responder chain correctly so preview panel will begin at desired
 	responder. In this case, a @c QuicklookController instance. The problem is the
-	system will not raise an error without properly configured chain.
+	system will not raise an error without properly configured chain. It doesn't 
+	need to become the first responder.
  
- 2.	Always hold the provided panel instance in @c beginPreviewPanelControl: method.
+ 2.	In my current observation, it always needs a @c NSWindow to work properly in
+	between the responder-chain. Do not connect directly to a @c NSApplication .
+ 
+ 3.	Always hold the provided panel instance in @c beginPreviewPanelControl: method.
 	Otherwise, the panel instance seems to be lost, and a new one can be created, 
 	and this brings wrong result.
  
- 3.	Data-source and delegate doesn't have to be same with the responder. In this
+ 4.	Data-source and delegate doesn't have to be same with the responder. In this
 	example, they're in one class for simplicity.
  
  See @c BoilerplateApplicationController class's @c applicationDidFinishLaunching:
@@ -57,6 +66,13 @@
 	return	self;
 }
 @end
+
+
+
+
+
+
+
 
 /*!
  Make sure that this responder is participating in a reponder chain.
@@ -105,11 +121,11 @@
 	
 	if (index == 0)
 	{
-		return	[[QuicklookItem alloc] initWithURL:[[NSBundle mainBundle] URLForResource:@"PREVIEW-EXAMPLE-TEXT-FILE" withExtension:@"txt"]];
+		return	[[QuicklookItem alloc] initWithURL:[[NSBundle mainBundle] URLForResource:@"lena" withExtension:@"png"]];
 	}
 	if (index == 1)
 	{
-		return	[[QuicklookItem alloc] initWithURL:[[NSBundle mainBundle] URLForResource:@"lena" withExtension:@"png"]];
+		return	[[QuicklookItem alloc] initWithURL:[[NSBundle mainBundle] URLForResource:@"PREVIEW-EXAMPLE-TEXT-FILE" withExtension:@"txt"]];
 	}
 	abort();
 }
@@ -172,9 +188,8 @@
 	
 	_qc				=	[[QuicklookController alloc] init];
 	
-	[self setNextResponder:_main_window];
 	[_main_window setNextResponder:_qc];
-	[_qc becomeFirstResponder];
+//	[_qc becomeFirstResponder];
 	[_qc displayPreview];
 	
 }
