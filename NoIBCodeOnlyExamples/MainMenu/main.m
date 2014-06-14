@@ -15,12 +15,6 @@
 
 
 
-
-
-@interface	BoilerplateApplicationController : NSResponder <NSApplicationDelegate>
-- (void)userTapQuitMenu:(id)sender;
-@end
-
 static void THE_CORE_PART_OF_THIS_EXAMPLE()
 {
 	/*!
@@ -43,12 +37,14 @@ static void THE_CORE_PART_OF_THIS_EXAMPLE()
 	 */
 	
 	NSCAssert([[NSApplication sharedApplication] mainMenu] == nil, @"An application should have no main-menu at first.");
+
+	SEL			s1	=	NSSelectorFromString(@"userTapQuitMenu:");		//	Made from a string to avoid warning.
 	
 	NSMenu*		m1	=	[[NSMenu alloc] initWithTitle:@"Menu 1"];
-	NSMenuItem*	m2	=	[[NSMenuItem alloc] initWithTitle:@"Item 2" action:@selector(userTapQuitMenu:) keyEquivalent:@""];
+	NSMenuItem*	m2	=	[[NSMenuItem alloc] initWithTitle:@"Item 2" action:s1 keyEquivalent:@""];
 	
 	NSMenu*		m3	=	[[NSMenu alloc] initWithTitle:@"Menu 3"];
-	NSMenuItem*	m4	=	[[NSMenuItem alloc] initWithTitle:@"Item 4" action:@selector(userTapQuitMenu:) keyEquivalent:@"q"];
+	NSMenuItem*	m4	=	[[NSMenuItem alloc] initWithTitle:@"Item 4" action:s1 keyEquivalent:@"q"];
 	
 	[[NSApplication sharedApplication] setMainMenu:m1];
 	[m1 addItem:m2];
@@ -70,6 +66,24 @@ static void THE_CORE_PART_OF_THIS_EXAMPLE()
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@interface	BoilerplateApplicationController : NSResponder <NSApplicationDelegate>
+- (void)userTapQuitMenu:(id)sender;
+@end
 
 @implementation BoilerplateApplicationController
 {

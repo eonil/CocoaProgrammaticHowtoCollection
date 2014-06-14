@@ -13,10 +13,10 @@
 
 
 
-@interface	BoilerplateApplicationController : NSResponder <NSApplicationDelegate>
+@interface	ApplicationController : NSResponder <NSApplicationDelegate>
 @end
 
-@implementation BoilerplateApplicationController
+@implementation ApplicationController
 {
 	NSWindow*	_main_window;
 }
@@ -62,7 +62,7 @@ int main(int argc, const char * argv[])
 	 */
 	@autoreleasepool
 	{
-		BoilerplateApplicationController*		del1	=	[[BoilerplateApplicationController alloc] init];
+		ApplicationController*		del1	=	[[ApplicationController alloc] init];
 		NSApplication*	app1	=	[NSApplication sharedApplication];		///	Let it to be created by accessing it.
 		[app1 setDelegate:del1];
 		[app1 run];
