@@ -16,5 +16,17 @@
       <FileRef
          location = "group:FileDropIntoView/FileDropIntoView.xcodeproj">
       </FileRef>
+      <FileRef
+         location = "group:FileDropIntoTableView/FileDropIntoTableView.xcodeproj">
+      </FileRef>
+      <FileRef
+         location = "group:ToolbarOnWindow/ToolbarOnWindow.xcodeproj">
+      </FileRef>
+      <FileRef
+         location = "group:Quicklook/Quicklook.xcodeproj">
+      </FileRef>
+      <FileRef
+         location = "group:OutlineView/OutlineView.xcodeproj">
+      </FileRef>
    </Group>
 </Workspace>
