@@ -3,7 +3,7 @@ README
 
 
 
-`F1` and `F2` are subframework which will be nested into an umbrella framework
+`F1` and `F2` are subframeworks which will be nested into an umbrella framework
 `Umbrella1`.
 
 

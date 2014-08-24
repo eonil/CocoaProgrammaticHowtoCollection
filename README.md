@@ -12,7 +12,8 @@ the situations.
 
 
 
-This also contains some non-GUI stuffs like Umbrella framework example. 
+This also contains some non-GUI stuffs lacked in Apple's documentation. 
+For example, *Umbrella framework*.
 
 
 
