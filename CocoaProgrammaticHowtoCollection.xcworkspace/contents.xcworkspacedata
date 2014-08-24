@@ -32,4 +32,11 @@
          location = "group:OutlineView/OutlineView.xcodeproj">
       </FileRef>
    </Group>
+   <Group
+      location = "group:NonUIStuffsExamples"
+      name = "NonUIStuffsExamples">
+      <FileRef
+         location = "group:BuildingUmbrellaFramework/BuildingUmbrellaFramework.xcodeproj">
+      </FileRef>
+   </Group>
 </Workspace>

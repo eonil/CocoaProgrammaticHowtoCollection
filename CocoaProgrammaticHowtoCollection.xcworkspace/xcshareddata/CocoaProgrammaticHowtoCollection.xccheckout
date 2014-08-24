@@ -10,6 +10,8 @@
 	<string>CocoaProgrammaticHowtoCollection</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
+		<key>0A920B383769B47802BC36E69845DCBBFDBA3D09</key>
+		<string>https://github.com/Eonil/CocoaHowtoCollection.git</string>
 		<key>D7F0F4FC-FEB8-4BE3-9017-8F27373A68FF</key>
 		<string>https://github.com/Eonil/CocoaHowtoCollection.git</string>
 	</dict>
@@ -17,15 +19,17 @@
 	<string>CocoaProgrammaticHowtoCollection.xcworkspace</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
-		<key>D7F0F4FC-FEB8-4BE3-9017-8F27373A68FF</key>
+		<key>0A920B383769B47802BC36E69845DCBBFDBA3D09</key>
 		<string>..</string>
+		<key>D7F0F4FC-FEB8-4BE3-9017-8F27373A68FF</key>
+		<string>../../CocoaHowtoCollection</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
 	<string>https://github.com/Eonil/CocoaHowtoCollection.git</string>
 	<key>IDESourceControlProjectVersion</key>
-	<integer>110</integer>
+	<integer>111</integer>
 	<key>IDESourceControlProjectWCCIdentifier</key>
-	<string>D7F0F4FC-FEB8-4BE3-9017-8F27373A68FF</string>
+	<string>0A920B383769B47802BC36E69845DCBBFDBA3D09</string>
 	<key>IDESourceControlProjectWCConfigurations</key>
 	<array>
 		<dict>
@@ -35,6 +39,14 @@
 			<string>D7F0F4FC-FEB8-4BE3-9017-8F27373A68FF</string>
 			<key>IDESourceControlWCCName</key>
 			<string>CocoaHowtoCollection</string>
+		</dict>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>0A920B383769B47802BC36E69845DCBBFDBA3D09</string>
+			<key>IDESourceControlWCCName</key>
+			<string>CocoaProgrammaticHowtoCollection</string>
 		</dict>
 	</array>
 </dict>
