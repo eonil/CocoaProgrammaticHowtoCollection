@@ -17,6 +17,10 @@ For example, *Umbrella framework*.
 
 
 
+These examples always aims the minimal code and configuration, then what you see is all fully required
+to do the job.
+
+
 
 
 
