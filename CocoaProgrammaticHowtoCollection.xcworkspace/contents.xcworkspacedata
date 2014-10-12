@@ -5,8 +5,18 @@
       location = "group:README.md">
    </FileRef>
    <Group
-      location = "group:NoIBCodeOnlyExamples"
-      name = "NoIBCodeOnlyExamples">
+      location = "group:ComponentUsages"
+      name = "ComponentUsages">
+      <FileRef
+         location = "group:Bootstrapping/Bootstrapping.xcodeproj">
+      </FileRef>
+      <FileRef
+         location = "group:SplitViewExample/SplitViewExample.xcodeproj">
+      </FileRef>
+   </Group>
+   <Group
+      location = "group:ComponentUsagesInObjectiveC"
+      name = "ComponentUsagesInObjectiveC">
       <FileRef
          location = "group:Bootstrapping/Bootstrapping.xcodeproj">
       </FileRef>
