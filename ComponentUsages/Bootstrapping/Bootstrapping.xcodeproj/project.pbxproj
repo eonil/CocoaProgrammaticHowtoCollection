@@ -7,13 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		45A3B47419EA513A00917AED /* ExampleApplicationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45A3B47119EA513A00917AED /* ExampleApplicationController.swift */; };
 		45A3B47619EA513A00917AED /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45A3B47319EA513A00917AED /* main.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		45A3B47119EA513A00917AED /* ExampleApplicationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExampleApplicationController.swift; sourceTree = "<group>"; };
-		45A3B47219EA513A00917AED /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		45A3B47319EA513A00917AED /* main.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		45D8986619E9B008005C8D2D /* Bootstrapping.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Bootstrapping.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -32,9 +29,7 @@
 		45D8985D19E9B008005C8D2D = {
 			isa = PBXGroup;
 			children = (
-				45A3B47219EA513A00917AED /* Info.plist */,
 				45A3B47319EA513A00917AED /* main.swift */,
-				45A3B47119EA513A00917AED /* ExampleApplicationController.swift */,
 				45D8986719E9B008005C8D2D /* Products */,
 			);
 			sourceTree = "<group>";
@@ -115,7 +110,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				45A3B47619EA513A00917AED /* main.swift in Sources */,
-				45A3B47419EA513A00917AED /* ExampleApplicationController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -204,7 +198,6 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				COMBINE_HIDPI_IMAGES = YES;
-				INFOPLIST_FILE = Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
 				PRODUCT_NAME = Bootstrapping;
 			};
@@ -215,7 +208,6 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				COMBINE_HIDPI_IMAGES = YES;
-				INFOPLIST_FILE = Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
 				PRODUCT_NAME = Bootstrapping;
 			};
