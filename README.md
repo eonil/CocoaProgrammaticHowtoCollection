@@ -23,15 +23,19 @@ to do the job.
 
 
 
--	NoIBCodeOnlyExamples (Objective-C)
+-	ComponentUsages 
+
+	Contains Swift examples. Written and tested in OSX 10.10.
+
+
+-	ComponentUsagesInObjectiveC
 
 	Contains Objective-C based examples. Written and tested in OSX 10.9.
 
 
-
--	ComponentUsages 
-
-	Contains Swift examples. Written and tested in OSX 10.10.
+-	NonUIStuffsExamples
+	
+	Contains non-UI stuff examples. Written and tested in OSX 10.9.
 
 
 
