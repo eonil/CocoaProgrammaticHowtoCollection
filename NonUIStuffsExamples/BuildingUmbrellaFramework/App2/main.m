@@ -14,5 +14,6 @@ int main(int argc, const char * argv[])
 	{
 		[F1 test];
 		[F2 test];
+		sleep(1);
 	}
 }
