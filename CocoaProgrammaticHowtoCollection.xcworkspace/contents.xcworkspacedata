@@ -13,6 +13,9 @@
       <FileRef
          location = "group:SplitViewExample/SplitViewExample.xcodeproj">
       </FileRef>
+      <FileRef
+         location = "group:TextView/TextView.xcodeproj">
+      </FileRef>
    </Group>
    <Group
       location = "group:ComponentUsagesInObjectiveC"
