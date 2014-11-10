@@ -113,8 +113,8 @@ final class ExampleOutlineViewController : NSViewController, NSOutlineViewDataSo
 		///	Because `textField` and `imageView` properties are weak, then they will not be retains,
 		///	and finally will be deallocated immediately when returning from this function.
 		///
-		///	Also, view-based table-view WON'T WORK AT ALL unless you set `rowSizeStyle` to non-`Custom`
-		///	value. See `viewDidLoad` method for details.
+		///	Also, view-based table-view family won't work at all unless you set `rowSizeStyle` to 
+		///	non-`Custom` value. See `viewDidLoad` method for details.
 		///
 		cv1.addSubview(t1)
 		cv1.addSubview(m1)
