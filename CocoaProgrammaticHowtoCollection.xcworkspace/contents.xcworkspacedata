@@ -16,6 +16,9 @@
       <FileRef
          location = "group:TextView/TextView.xcodeproj">
       </FileRef>
+      <FileRef
+         location = "group:OutlineViewExampleWithViewBasedTechnique/OutlineViewExample.xcodeproj">
+      </FileRef>
    </Group>
    <Group
       location = "group:ComponentUsagesInObjectiveC"
