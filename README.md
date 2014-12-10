@@ -4,7 +4,7 @@ README
 Hoon H.
 
 This shows how to create a Cocoa GUI app using only program code with no Interface Builder / Storyoard
-stuffs. Apple sample codes are great, but in many cases it lacks programmatic-only way.
+stuffs. Apple sample codes are great, but in many cases it lacks programmatic-only way and overly complex.
 
 It's arguable that which one of IB-ful or IB-less strategy is better. But it's also clear that the IB
 sometimes doesn't fit to, work on or serve well some situations. This how-to examples are written for 
@@ -47,7 +47,26 @@ to do the job.
 
 
 
+
+
+
+
 License
 -------
 This code is written by Hoon H. (a.k.a. Eonil), and licensed under MIT license.
+
+
+
+Contribution
+------------
+The ultimate goal of this project is providing a collection of **minimal** examples for each single situations so I can assemble them to figure out **precise** solution for my (and holpefully your) problems. 
+It will be nice if you help me to improve this collection by reporting some issues, suggestions, questions or even a pull request! 
+
+
+
+
+
+
+
+
 
