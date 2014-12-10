@@ -59,7 +59,7 @@ This code is written by Hoon H. (a.k.a. Eonil), and licensed under MIT license.
 
 Contribution
 ------------
-The ultimate goal of this project is providing a collection of **minimal** examples for each single situations so I can assemble them to figure out **precise** solution for my (and holpefully your) problems. 
+The ultimate goal of this project is providing a collection of **minimal** examples for each single situations so I can imediately assemble them to figure out **precise** solution for my (and holpefully your) problems. 
 It will be nice if you help me to improve this collection by reporting some issues, suggestions, questions or even a pull request! 
 
 
