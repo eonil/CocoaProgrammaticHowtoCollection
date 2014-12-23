@@ -17,15 +17,6 @@ class ExampleApplicationController: NSObject, NSApplicationDelegate {
 		let	view1	=	NSView()
 		
 		init(){
-			view1.wantsLayer				=	true
-			view1.layer!.cornerRadius		=	10
-			view1.layer!.backgroundColor	=	NSColor.whiteColor().CGColor
-			
-			//
-			//	The `view1` must be configured BEFORE added to `window1`.
-			//	Otherwise, the window shadow will not work properly. Seems to be a bug in the SDK.
-			//
-			
 			window1.setFrame(CGRect(x: 400, y: 0, width: 400, height: 500), display: true)
 			window1.contentView					=	view1
 			
@@ -35,6 +26,12 @@ class ExampleApplicationController: NSObject, NSApplicationDelegate {
 			window1.movableByWindowBackground	=	true
 			window1.makeKeyAndOrderFront(self)
 			
+			view1.wantsLayer				=	true
+			view1.layer!.cornerRadius		=	10
+			view1.layer!.backgroundColor	=	NSColor.whiteColor().CGColor
+			
+			///	:ref:	http://stackoverflow.com/questions/19940019/nswindow-with-round-corners-and-shadow/27613308#21247949
+			window1.invalidateShadow()	//	This manual invalidation is REQUIRED because shadow generation is an expensive operation.
 		}
 	}
 	
