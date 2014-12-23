@@ -22,8 +22,8 @@ class ExampleApplicationController: NSObject, NSApplicationDelegate {
 			view1.layer!.backgroundColor	=	NSColor.whiteColor().CGColor
 			
 			//
-			//	The `view1` must be configured to be round BEFORE assigned to `window1`.
-			//	Otherwise the window shadow will not work. Should be a bug in the SDK.
+			//	The `view1` must be configured BEFORE added to `window1`.
+			//	Otherwise, the window shadow will not work properly. Seems to be a bug in the SDK.
 			//
 			
 			window1.setFrame(CGRect(x: 400, y: 0, width: 400, height: 500), display: true)
