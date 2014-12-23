@@ -19,6 +19,9 @@
       <FileRef
          location = "group:OutlineViewExampleWithViewBasedTechnique/OutlineViewExample.xcodeproj">
       </FileRef>
+      <FileRef
+         location = "group:BorderlessRoundWindowWithShadow/BorderlessRoundWindowWithShadow.xcodeproj">
+      </FileRef>
    </Group>
    <Group
       location = "group:ComponentUsagesInObjectiveC"
