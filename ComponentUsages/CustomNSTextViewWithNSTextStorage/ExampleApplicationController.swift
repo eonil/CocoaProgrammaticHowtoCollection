@@ -83,13 +83,11 @@ class CustomTextStorage: NSTextStorage {
 	override func replaceCharactersInRange(range: NSRange, withString str: String) {
 		s	=	(s as NSString).stringByReplacingCharactersInRange(range, withString: str)
 		
-		let	d	=	range.length - (str as NSString).length
-		let	d1	=	abs(d)
-		
 		//
 		//	Changes must be notified!
 		//
-		self.edited(Int(NSTextStorageEditedOptions.Characters.rawValue), range: range, changeInLength: d1)
+		let	d	=	(str as NSString).length - range.length
+		self.edited(Int(NSTextStorageEditedOptions.Characters.rawValue), range: range, changeInLength: d)	//	`d` must be delta. Keep the sign.
 	}
 	override func setAttributes(attrs: [NSObject : AnyObject]?, range: NSRange) {
 		
