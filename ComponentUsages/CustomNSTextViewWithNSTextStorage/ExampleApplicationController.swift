@@ -28,7 +28,7 @@ class CustomTextView: NSTextView {
 	//	I don't know why, but this must be owned by `self`.
 	//	Otherwise your app will be crashed.
 	//	Seems to be related to ownership.
-	//	Sited from documentation:
+	//	Cited from documentation:
 	//
 	//	>	There are two standard ways to create an object web of the
 	//	>	four principal classes of the text system to handle text 
