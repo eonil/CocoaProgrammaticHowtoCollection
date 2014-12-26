@@ -25,6 +25,9 @@
       <FileRef
          location = "group:RegularDarkVibrantWindow/RegularDarkVibrantWindow.xcodeproj">
       </FileRef>
+      <FileRef
+         location = "group:CustomNSTextViewWithNSTextStorage/CustomNSTextViewWithNSTextStorage.xcodeproj">
+      </FileRef>
    </Group>
    <Group
       location = "group:ComponentUsagesInObjectiveC"
