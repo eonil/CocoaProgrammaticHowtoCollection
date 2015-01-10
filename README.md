@@ -1,6 +1,7 @@
-README
-======
+Eonil/CocoaProgrammaticHowtoCollection
+======================================
 2014/06/13
+2015/01/10
 Hoon H.
 
 This shows how to create a Cocoa GUI app using only program code with no Interface Builder / Storyoard
