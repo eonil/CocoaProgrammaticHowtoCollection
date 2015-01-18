@@ -18,7 +18,7 @@ For example, *Umbrella framework*.
 
 
 
-These examples always aims the minimal code and configuration, then what you see is all fully required
+These examples always aim minimal code and configuration, then what you see is all fully required
 to do the job.
 
 
@@ -28,6 +28,15 @@ to do the job.
 
 	Contains Swift examples. Written and tested in OSX 10.10.
 
+	-	Bootstrapping. How to make an empty AppKit application.
+	-	SplitViewExample. How to use `NSSplitViewController`.
+	-	TextInput. How to take international text input using `NSTextInputClient` mechanism.
+	-	TextView. How to make `NSTextView` properly working with scrolling.
+	-	OutlineViewExample. How to fully establish working `NSOutlineView`.
+	-	BorderlessRoundWindowWithShadow. How to make a border-less window with round corners and proper shadow. A bit verbose.
+	-	RegularDarkVibrantWindow. How to make a dark `NSWindow` with blurred transparent background. A bit verbose.
+	-	CustomNSTextViewWithNSTextStorage. How to make a custom `NSTextView` with custom `NSTextStorage`. A bit verbose.
+	-	CollectionView. How to use `NSCollectionView`.
 
 -	ComponentUsagesInObjectiveC
 

@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "453DD317194B230B00302575"
-               BuildableName = "MainMenu.app"
-               BlueprintName = "MainMenu"
-               ReferencedContainer = "container:MainMenu.xcodeproj">
+               BuildableName = "MenuWithNoCommandKey.app"
+               BlueprintName = "MenuWithNoCommandKey"
+               ReferencedContainer = "container:MenuWithNoCommandKey.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,9 +33,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "453DD317194B230B00302575"
-            BuildableName = "MainMenu.app"
-            BlueprintName = "MainMenu"
-            ReferencedContainer = "container:MainMenu.xcodeproj">
+            BuildableName = "MenuWithNoCommandKey.app"
+            BlueprintName = "MenuWithNoCommandKey"
+            ReferencedContainer = "container:MenuWithNoCommandKey.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </TestAction>
@@ -52,9 +52,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "453DD317194B230B00302575"
-            BuildableName = "MainMenu.app"
-            BlueprintName = "MainMenu"
-            ReferencedContainer = "container:MainMenu.xcodeproj">
+            BuildableName = "MenuWithNoCommandKey.app"
+            BlueprintName = "MenuWithNoCommandKey"
+            ReferencedContainer = "container:MenuWithNoCommandKey.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -70,9 +70,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "453DD317194B230B00302575"
-            BuildableName = "MainMenu.app"
-            BlueprintName = "MainMenu"
-            ReferencedContainer = "container:MainMenu.xcodeproj">
+            BuildableName = "MenuWithNoCommandKey.app"
+            BlueprintName = "MenuWithNoCommandKey"
+            ReferencedContainer = "container:MenuWithNoCommandKey.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

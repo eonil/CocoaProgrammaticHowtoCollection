@@ -31,6 +31,9 @@
       <FileRef
          location = "group:CustomNSTextViewWithNSTextStorage/CustomNSTextViewWithNSTextStorage.xcodeproj">
       </FileRef>
+      <FileRef
+         location = "group:CollectionView/CollectionView.xcodeproj">
+      </FileRef>
    </Group>
    <Group
       location = "group:ComponentUsagesInObjectiveC"

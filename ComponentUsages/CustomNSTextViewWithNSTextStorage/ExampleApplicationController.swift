@@ -24,11 +24,13 @@ import Cocoa
 
 
 class CustomTextView: NSTextView {
+
+	//	If you use non-default text-storage, 
+	//	the storage must be retained by something else
+	//	because `NSTextView` will not retain it.
+	//	As a consequence, your app will be crashed.
 	//
-	//	I don't know why, but this must be owned by `self`.
-	//	Otherwise your app will be crashed.
-	//	Seems to be related to ownership.
-	//	Cited from documentation:
+	//	Cited from manual:
 	//
 	//	>	There are two standard ways to create an object web of the
 	//	>	four principal classes of the text system to handle text 

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Scheme
-   LastUpgradeVersion = "0510"
+   LastUpgradeVersion = "0610"
    version = "1.3">
    <BuildAction
       parallelizeBuildables = "YES"
@@ -14,10 +14,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "453DD317194B230B00302575"
-               BuildableName = "MenuWithNoCommandKey.app"
-               BlueprintName = "MenuWithNoCommandKey"
-               ReferencedContainer = "container:MenuWithNoCommandKey.xcodeproj">
+               BlueprintIdentifier = "45D8986519E9B008005C8D2D"
+               BuildableName = "CollectionView.app"
+               BlueprintName = "CollectionView"
+               ReferencedContainer = "container:CollectionView.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -32,10 +32,10 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "453DD317194B230B00302575"
-            BuildableName = "MenuWithNoCommandKey.app"
-            BlueprintName = "MenuWithNoCommandKey"
-            ReferencedContainer = "container:MenuWithNoCommandKey.xcodeproj">
+            BlueprintIdentifier = "45D8986519E9B008005C8D2D"
+            BuildableName = "CollectionView.app"
+            BlueprintName = "CollectionView"
+            ReferencedContainer = "container:CollectionView.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </TestAction>
@@ -51,10 +51,10 @@
       <BuildableProductRunnable>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "453DD317194B230B00302575"
-            BuildableName = "MenuWithNoCommandKey.app"
-            BlueprintName = "MenuWithNoCommandKey"
-            ReferencedContainer = "container:MenuWithNoCommandKey.xcodeproj">
+            BlueprintIdentifier = "45D8986519E9B008005C8D2D"
+            BuildableName = "CollectionView.app"
+            BlueprintName = "CollectionView"
+            ReferencedContainer = "container:CollectionView.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -69,10 +69,10 @@
       <BuildableProductRunnable>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "453DD317194B230B00302575"
-            BuildableName = "MenuWithNoCommandKey.app"
-            BlueprintName = "MenuWithNoCommandKey"
-            ReferencedContainer = "container:MenuWithNoCommandKey.xcodeproj">
+            BlueprintIdentifier = "45D8986519E9B008005C8D2D"
+            BuildableName = "CollectionView.app"
+            BlueprintName = "CollectionView"
+            ReferencedContainer = "container:CollectionView.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>
