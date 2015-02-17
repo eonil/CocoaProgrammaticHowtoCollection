@@ -70,4 +70,8 @@
          location = "group:BuildingUmbrellaFramework/BuildingUmbrellaFramework.xcodeproj">
       </FileRef>
    </Group>
+   <Group
+      location = "group:iOSExamples"
+      name = "iOSExamples">
+   </Group>
 </Workspace>

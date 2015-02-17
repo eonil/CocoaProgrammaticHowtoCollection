@@ -48,8 +48,9 @@ to do the job.
 	Contains non-UI stuff examples. Written and tested in OSX 10.9.
 
 
+-	iOSExamples
 
-
+	Contains iOS stuff examples. Written in Swift and tested in iOS 8.0.
 
 
 
