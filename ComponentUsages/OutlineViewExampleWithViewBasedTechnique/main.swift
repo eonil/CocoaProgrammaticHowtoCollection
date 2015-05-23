@@ -31,7 +31,7 @@ final class ExampleOutlineViewController : NSViewController, NSOutlineViewDataSo
 	
 	var scrollView:NSScrollView {
 		get {
-			return	super.view as NSScrollView
+			return	super.view as! NSScrollView
 		}
 	}
 	
@@ -76,7 +76,7 @@ final class ExampleOutlineViewController : NSViewController, NSOutlineViewDataSo
 		if item == nil {
 			return	1
 		} else {
-			let	n1	=	item as ExampleDataNode
+			let	n1	=	item as! ExampleDataNode
 			return	n1.subnodes.count
 		}
 	}
@@ -84,7 +84,7 @@ final class ExampleOutlineViewController : NSViewController, NSOutlineViewDataSo
 		if item == nil {
 			return	dataRoot
 		} else {
-			let	n1	=	item as ExampleDataNode
+			let	n1	=	item as! ExampleDataNode
 			return	n1.subnodes[index]
 		}
 	}
@@ -95,7 +95,7 @@ final class ExampleOutlineViewController : NSViewController, NSOutlineViewDataSo
 		return	16
 	}
 	func outlineView(outlineView: NSOutlineView, viewForTableColumn tableColumn: NSTableColumn?, item: AnyObject) -> NSView? {
-		let	n1	=	item as ExampleDataNode
+		let	n1	=	item as! ExampleDataNode
 		let	t1	=	NSTextField()
 		let	m1	=	NSImageView()
 		

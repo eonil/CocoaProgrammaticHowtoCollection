@@ -41,9 +41,9 @@ class CustomTextView: NSTextView {
 	//
 	var	s:CustomTextStorage?
 	
-	override init() {
-		super.init()
-	}
+//	init() {
+//		super.init(frame: NSRect.zeroRect, textContainer: nil)
+//	}
 	
 	override init(frame frameRect: NSRect, textContainer container: NSTextContainer?) {
 		super.init(frame: frameRect, textContainer: container)

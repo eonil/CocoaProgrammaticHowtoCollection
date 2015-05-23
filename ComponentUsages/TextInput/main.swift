@@ -44,7 +44,7 @@ final class ExampleView: NSView, NSTextInputClient {
 		let	s	=	findNSStringObject(aString)
 		let	r	=	replacementRange.location != NSNotFound ? replacementRange : (_markedRange != nil ? self.markedRange() : self.selectedRange())
 		
-		_buffer.replaceCharactersInRange(r, withString: s)
+		_buffer.replaceCharactersInRange(r, withString: s as String)
 		self.unmarkText()
 		self.inputContext!.invalidateCharacterCoordinates()
 		
@@ -54,7 +54,7 @@ final class ExampleView: NSView, NSTextInputClient {
 		let	s	=	findNSStringObject(aString)
 		let	r	=	replacementRange.location != NSNotFound ? replacementRange : (_markedRange != nil ? self.markedRange() : self.selectedRange())
 		
-		_buffer.replaceCharactersInRange(r, withString: s)
+		_buffer.replaceCharactersInRange(r, withString: s as String)
 		_markedRange	=	r.location..<(r.location+s.length)
 			
 		println("setMarkedText, current buffer = \(_buffer)")
@@ -155,10 +155,10 @@ extension NSRange {
 
 func findNSStringObject(o:AnyObject) -> NSString {
 	if o is NSString {
-		return	o as NSString
+		return	o as! NSString
 	}
 	if o is NSAttributedString {
-		return	(o as NSAttributedString).string
+		return	(o as! NSAttributedString).string
 	}
 	fatalError()
 }

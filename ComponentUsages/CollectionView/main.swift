@@ -39,10 +39,10 @@ final class ExampleItemViewController: NSCollectionViewItem {
 	
 	override var representedObject:AnyObject? {
 		get {
-			return	(self.view as NSTextField).objectValue
+			return	(self.view as! NSTextField).objectValue
 		}
 		set(v) {
-			(self.view as NSTextField).objectValue	=	v
+			(self.view as! NSTextField).objectValue	=	v
 		}
 	}
 }
