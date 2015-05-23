@@ -37,6 +37,7 @@ to do the job.
 	-	RegularDarkVibrantWindow. How to make a dark `NSWindow` with blurred transparent background. A bit verbose.
 	-	CustomNSTextViewWithNSTextStorage. How to make a custom `NSTextView` with custom `NSTextStorage`. A bit verbose.
 	-	CollectionView. How to use `NSCollectionView`.
+	-	NSTableViewExample. How to make view-based `NSTableView` with reused column views.
 
 -	ComponentUsagesInObjectiveC
 
