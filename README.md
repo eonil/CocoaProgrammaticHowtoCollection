@@ -38,6 +38,7 @@ to do the job.
 	-	CustomNSTextViewWithNSTextStorage. How to make a custom `NSTextView` with custom `NSTextStorage`. A bit verbose.
 	-	CollectionView. How to use `NSCollectionView`.
 	-	NSTableViewExample. How to make view-based `NSTableView` with reused component views.
+	-	NSToolbar. How to make and use `NSToolbar` within an `NSWindow` properly.
 
 -	ComponentUsagesInObjectiveC
 

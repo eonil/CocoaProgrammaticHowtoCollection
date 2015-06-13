@@ -37,6 +37,9 @@
       <FileRef
          location = "group:NSTableViewExample/NSTableViewExample.xcodeproj">
       </FileRef>
+      <FileRef
+         location = "group:NSToolbar/NSToolbar.xcodeproj">
+      </FileRef>
    </Group>
    <Group
       location = "group:ComponentUsagesInObjectiveC"
