@@ -41,6 +41,7 @@ to do the job.
 	-	CollectionView. How to use `NSCollectionView`.
 	-	NSTableViewExample. How to make view-based `NSTableView` with reused component views.
 	-	NSToolbar. How to make and use `NSToolbar` within an `NSWindow` properly.
+	-	ApplicationMenu. How to replicate system-default Cocoa app menu.
 
 -	ComponentUsagesInObjectiveC
 

@@ -40,6 +40,9 @@
       <FileRef
          location = "group:NSToolbar/NSToolbar.xcodeproj">
       </FileRef>
+      <FileRef
+         location = "group:ApplicationMenu/ApplicationMenu.xcodeproj">
+      </FileRef>
    </Group>
    <Group
       location = "group:ComponentUsagesInObjectiveC"
