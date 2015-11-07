@@ -69,9 +69,9 @@ class CustomTextStorage: NSTextStorage {
 			return	s
 		}
 	}
-	
-	override func attributesAtIndex(location: Int, effectiveRange range: NSRangePointer) -> [NSObject : AnyObject] {
-		
+
+	override func attributesAtIndex(location: Int, effectiveRange range: NSRangePointer) -> [String : AnyObject] {
+
 		//
 		//	`range` is an output parameter! You must set it to a proper value.
 		//
@@ -81,22 +81,22 @@ class CustomTextStorage: NSTextStorage {
 		
 		return	[NSFontAttributeName: NSFont.systemFontOfSize(24)]
 	}
-	
+
 	override func replaceCharactersInRange(range: NSRange, withString str: String) {
 		s	=	(s as NSString).stringByReplacingCharactersInRange(range, withString: str)
-		
+
 		//
 		//	Changes must be notified!
 		//
 		let	d	=	(str as NSString).length - range.length
-		self.edited(Int(NSTextStorageEditedOptions.Characters.rawValue), range: range, changeInLength: d)	//	`d` must be delta. Keep the sign.
+		self.edited(NSTextStorageEditActions.EditedCharacters, range: range, changeInLength: d)		//	`d` must be delta. Keep the sign.
 	}
-	override func setAttributes(attrs: [NSObject : AnyObject]?, range: NSRange) {
+	override func setAttributes(attrs: [String : AnyObject]?, range: NSRange) {
 		
 		//
 		//	Changes must be notified!
 		//
-		self.edited(Int(NSTextStorageEditedOptions.Attributes.rawValue), range: range, changeInLength: 0)
+		self.edited(NSTextStorageEditActions.EditedAttributes, range: range, changeInLength: 0)
 	}
 }
 

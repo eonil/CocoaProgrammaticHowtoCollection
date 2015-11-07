@@ -48,7 +48,7 @@ final class ExampleView: NSView, NSTextInputClient {
 		self.unmarkText()
 		self.inputContext!.invalidateCharacterCoordinates()
 		
-		println("insertText, current buffer = \(_buffer)")
+		Swift.print("insertText, current buffer = \(_buffer)")
 	}
 	func setMarkedText(aString: AnyObject, selectedRange: NSRange, replacementRange: NSRange) {
 		let	s	=	findNSStringObject(aString)
@@ -57,13 +57,13 @@ final class ExampleView: NSView, NSTextInputClient {
 		_buffer.replaceCharactersInRange(r, withString: s as String)
 		_markedRange	=	r.location..<(r.location+s.length)
 			
-		println("setMarkedText, current buffer = \(_buffer)")
+		Swift.print("setMarkedText, current buffer = \(_buffer)")
 	}
 	func unmarkText() {
 		_markedRange	=	nil
 		self.inputContext!.discardMarkedText()
 		
-		println("unmarkText, current buffer = \(_buffer)")
+		Swift.print("unmarkText, current buffer = \(_buffer)")
 	}
 	
 	
@@ -72,11 +72,11 @@ final class ExampleView: NSView, NSTextInputClient {
 	func attributedSubstringForProposedRange(aRange: NSRange, actualRange: NSRangePointer) -> NSAttributedString? {
 		return	nil
 	}
-	func validAttributesForMarkedText() -> [AnyObject] {
+	func validAttributesForMarkedText() -> [String] {
 		return	[]
 	}
 	func firstRectForCharacterRange(aRange: NSRange, actualRange: NSRangePointer) -> NSRect {
-		return	CGRect.zeroRect
+		return	CGRect.zero
 	}
 	func characterIndexForPoint(aPoint: NSPoint) -> Int {
 		return	NSNotFound

@@ -70,11 +70,11 @@ class AppDelegate: NSObject, NSApplicationDelegate, NSToolbarDelegate {
 		return	item1
 	}
 	@objc
-	func toolbarDefaultItemIdentifiers(toolbar: NSToolbar) -> [AnyObject] {
+	func toolbarDefaultItemIdentifiers(toolbar: NSToolbar) -> [String] {
 		return	[NSToolbarPrintItemIdentifier, "AAA"]
 	}
 	@objc
-	func toolbarAllowedItemIdentifiers(toolbar: NSToolbar) -> [AnyObject] {
+	func toolbarAllowedItemIdentifiers(toolbar: NSToolbar) -> [String] {
 		return	[NSToolbarPrintItemIdentifier, "AAA"]
 	}
 //	@objc
@@ -85,8 +85,8 @@ class AppDelegate: NSObject, NSApplicationDelegate, NSToolbarDelegate {
 	//	End of essential part.
 	//////////////////////////////////////////////////////////////////
 	
-	func aaa(AnyObject?) {
-		println("OK!")
+	func aaa(_: AnyObject?) {
+		print("OK!")
 	}
 }
 

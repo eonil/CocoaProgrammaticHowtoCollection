@@ -37,8 +37,8 @@ final class ExampleTableViewController : NSObject, NSTableViewDataSource, NSTabl
 	@objc
 	func tableView(tableView: NSTableView, viewForTableColumn tableColumn: NSTableColumn?, row: Int) -> NSView? {
 		let	VIEW_ID1	=	"VIEW_ID1"
-		if let v1 = tableView.makeViewWithIdentifier(VIEW_ID1, owner: nil) as? NSView {
-			println("Reused \(ObjectIdentifier(v1))")
+		if let v1 = tableView.makeViewWithIdentifier(VIEW_ID1, owner: nil) {
+			print("Reused \(ObjectIdentifier(v1))")
 			return	v1
 		} else {
 			let	v1	=	NSTextField()	//	Don't forget that you also can use `NSTableCellView` class for view-based tables.

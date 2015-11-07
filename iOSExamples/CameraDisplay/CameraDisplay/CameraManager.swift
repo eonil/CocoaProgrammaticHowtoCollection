@@ -30,16 +30,16 @@ final class CameraManager: NSObject, AVCaptureVideoDataOutputSampleBufferDelegat
 			return	nil
 		}
 		
-		println(AVCaptureDevice.devicesWithMediaType(AVMediaTypeVideo))
+		print(AVCaptureDevice.devicesWithMediaType(AVMediaTypeVideo))
 		video	=	findFrontfacingCamera()!
 		audio	=	AVCaptureDevice.devicesWithMediaType(AVMediaTypeAudio)[0] as! AVCaptureDevice
 		session	=	AVCaptureSession()
 		display	=	AVCaptureVideoPreviewLayer(session: session)
 		
 		super.init()
-		
-		let	in1		=	AVCaptureDeviceInput(device: video, error: nil)!
-		let	in2		=	AVCaptureDeviceInput(device: audio, error: nil)!
+
+		let	in1		=	try! AVCaptureDeviceInput(device: video)
+		let	in2		=	try! AVCaptureDeviceInput(device: audio)
 		let	out1	=	AVCaptureVideoDataOutput()
 		out1.setSampleBufferDelegate(self, queue: dispatch_get_main_queue())
 		
@@ -55,10 +55,10 @@ final class CameraManager: NSObject, AVCaptureVideoDataOutputSampleBufferDelegat
 	}
 	
 	func captureOutput(captureOutput: AVCaptureOutput!, didDropSampleBuffer sampleBuffer: CMSampleBuffer!, fromConnection connection: AVCaptureConnection!) {
-		println("DROP frame!")
+		print("DROP frame!")
 	}
 	func captureOutput(captureOutput: AVCaptureOutput!, didOutputSampleBuffer sampleBuffer: CMSampleBuffer!, fromConnection connection: AVCaptureConnection!) {
-		println("OUTPUT frame!")
+		print("OUTPUT frame!")
 	}
 }
 

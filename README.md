@@ -2,6 +2,7 @@ Eonil/CocoaProgrammaticHowtoCollection
 ======================================
 2014/06/13
 2015/01/10
+2015/11/07
 Hoon H.
 
 This shows how to create a Cocoa GUI app using only program code with no Interface Builder / Storyoard
@@ -26,7 +27,8 @@ to do the job.
 
 -	ComponentUsages 
 
-	Contains Swift examples. Written and tested in OSX 10.10.
+	Contains Swift examples. Written and tested in OSX 10.11. Some examples will continue to work also in 10.10
+	but I don't track which. Now all examples require Swift 2.1 to compile.
 
 	-	Bootstrapping. How to make an empty AppKit application.
 	-	SplitViewExample. How to use `NSSplitViewController`.

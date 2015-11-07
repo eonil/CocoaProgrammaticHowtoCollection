@@ -83,7 +83,7 @@
 		453DD310194B230B00302575 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0510;
+				LastUpgradeCheck = 0710;
 				ORGANIZATIONNAME = Eonil;
 			};
 			buildConfigurationList = 453DD313194B230B00302575 /* Build configuration list for PBXProject "OutlineView" */;
@@ -146,6 +146,7 @@
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = c11;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
@@ -202,7 +203,6 @@
 		453DD34A194B230B00302575 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				COMBINE_HIDPI_IMAGES = YES;
 				PRODUCT_NAME = OutlineView;
 				WRAPPER_EXTENSION = app;
@@ -212,7 +212,6 @@
 		453DD34B194B230B00302575 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				COMBINE_HIDPI_IMAGES = YES;
 				PRODUCT_NAME = OutlineView;
 				WRAPPER_EXTENSION = app;

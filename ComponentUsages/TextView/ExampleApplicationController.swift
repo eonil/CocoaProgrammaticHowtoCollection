@@ -29,8 +29,8 @@ class ExampleApplicationController: NSObject, NSApplicationDelegate {
 			scroll1.hasHorizontalScroller	=	true
 			scroll1.documentView			=	text1
 			
-			scroll1.autoresizingMask		=	NSAutoresizingMaskOptions.ViewWidthSizable | NSAutoresizingMaskOptions.ViewHeightSizable
-			text1.autoresizingMask			=	NSAutoresizingMaskOptions.ViewWidthSizable | NSAutoresizingMaskOptions.ViewHeightSizable
+			scroll1.autoresizingMask		=	[NSAutoresizingMaskOptions.ViewWidthSizable, NSAutoresizingMaskOptions.ViewHeightSizable]
+			text1.autoresizingMask			=	[NSAutoresizingMaskOptions.ViewWidthSizable, NSAutoresizingMaskOptions.ViewHeightSizable]
 			
 			////
 			
