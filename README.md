@@ -57,6 +57,8 @@ to do the job.
 
 	Contains iOS stuff examples. Written in Swift and tested in iOS 8.0.
 
+	-	AutosizingTableExample. Shows how to enable autoresizing in tables and cells.
+
 
 
 
