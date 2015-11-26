@@ -82,5 +82,8 @@
    <Group
       location = "group:iOSExamples"
       name = "iOSExamples">
+      <FileRef
+         location = "group:AutosizingTableExample/AutosizingTableExample.xcodeproj">
+      </FileRef>
    </Group>
 </Workspace>
