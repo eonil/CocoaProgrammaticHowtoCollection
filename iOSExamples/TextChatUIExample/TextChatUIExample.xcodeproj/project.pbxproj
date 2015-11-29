@@ -1,0 +1,309 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		456DE6A51C09CF6000376103 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 456DE6A41C09CF6000376103 /* Default-568h@2x.png */; };
+		456DE6A71C09ED5900376103 /* Debug1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 456DE6A61C09ED5900376103 /* Debug1.swift */; };
+		456DE6A91C0A084500376103 /* View1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 456DE6A81C0A084500376103 /* View1.swift */; };
+		456DE6AB1C0A085200376103 /* ViewController3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 456DE6AA1C0A085200376103 /* ViewController3.swift */; };
+		456DE6AD1C0AE19500376103 /* Utility1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 456DE6AC1C0AE19500376103 /* Utility1.swift */; };
+		4595FE341C094CEC001EC045 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4595FE331C094CEC001EC045 /* AppDelegate.swift */; };
+		4595FE361C094CEC001EC045 /* ViewController1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4595FE351C094CEC001EC045 /* ViewController1.swift */; };
+		4595FE461C094DB3001EC045 /* Cell1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4595FE451C094DB3001EC045 /* Cell1.swift */; };
+		4595FE481C094DCD001EC045 /* Input1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4595FE471C094DCD001EC045 /* Input1.swift */; };
+		4595FE4A1C094E3E001EC045 /* Conversation1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4595FE491C094E3E001EC045 /* Conversation1.swift */; };
+		4595FE4C1C096186001EC045 /* Layout1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4595FE4B1C096186001EC045 /* Layout1.swift */; };
+		45973CBE1C0993A20061D0F6 /* ViewController2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45973CBD1C0993A20061D0F6 /* ViewController2.swift */; };
+		45973CC01C0996A30061D0F6 /* KeyboardFrameTrackingController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45973CBF1C0996A30061D0F6 /* KeyboardFrameTrackingController.swift */; };
+		45973CC21C099ED30061D0F6 /* Extensions1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45973CC11C099ED30061D0F6 /* Extensions1.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		456DE6A41C09CF6000376103 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		456DE6A61C09ED5900376103 /* Debug1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Debug1.swift; sourceTree = "<group>"; };
+		456DE6A81C0A084500376103 /* View1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = View1.swift; sourceTree = "<group>"; };
+		456DE6AA1C0A085200376103 /* ViewController3.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController3.swift; sourceTree = "<group>"; };
+		456DE6AC1C0AE19500376103 /* Utility1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Utility1.swift; sourceTree = "<group>"; };
+		4595FE301C094CEC001EC045 /* TextChatUIExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TextChatUIExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4595FE331C094CEC001EC045 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4595FE351C094CEC001EC045 /* ViewController1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController1.swift; sourceTree = "<group>"; };
+		4595FE3F1C094CEC001EC045 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4595FE451C094DB3001EC045 /* Cell1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Cell1.swift; sourceTree = "<group>"; };
+		4595FE471C094DCD001EC045 /* Input1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Input1.swift; sourceTree = "<group>"; };
+		4595FE491C094E3E001EC045 /* Conversation1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Conversation1.swift; sourceTree = "<group>"; };
+		4595FE4B1C096186001EC045 /* Layout1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Layout1.swift; sourceTree = "<group>"; };
+		45973CBD1C0993A20061D0F6 /* ViewController2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController2.swift; sourceTree = "<group>"; };
+		45973CBF1C0996A30061D0F6 /* KeyboardFrameTrackingController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KeyboardFrameTrackingController.swift; sourceTree = "<group>"; };
+		45973CC11C099ED30061D0F6 /* Extensions1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extensions1.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4595FE2D1C094CEC001EC045 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4595FE271C094CEC001EC045 = {
+			isa = PBXGroup;
+			children = (
+				456DE6A41C09CF6000376103 /* Default-568h@2x.png */,
+				4595FE321C094CEC001EC045 /* TextChatUIExample */,
+				4595FE311C094CEC001EC045 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4595FE311C094CEC001EC045 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4595FE301C094CEC001EC045 /* TextChatUIExample.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4595FE321C094CEC001EC045 /* TextChatUIExample */ = {
+			isa = PBXGroup;
+			children = (
+				4595FE331C094CEC001EC045 /* AppDelegate.swift */,
+				4595FE351C094CEC001EC045 /* ViewController1.swift */,
+				45973CBD1C0993A20061D0F6 /* ViewController2.swift */,
+				456DE6AA1C0A085200376103 /* ViewController3.swift */,
+				456DE6A81C0A084500376103 /* View1.swift */,
+				4595FE4B1C096186001EC045 /* Layout1.swift */,
+				4595FE451C094DB3001EC045 /* Cell1.swift */,
+				4595FE471C094DCD001EC045 /* Input1.swift */,
+				4595FE491C094E3E001EC045 /* Conversation1.swift */,
+				45973CBF1C0996A30061D0F6 /* KeyboardFrameTrackingController.swift */,
+				45973CC11C099ED30061D0F6 /* Extensions1.swift */,
+				456DE6A61C09ED5900376103 /* Debug1.swift */,
+				456DE6AC1C0AE19500376103 /* Utility1.swift */,
+				4595FE3F1C094CEC001EC045 /* Info.plist */,
+			);
+			path = TextChatUIExample;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4595FE2F1C094CEC001EC045 /* TextChatUIExample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4595FE421C094CEC001EC045 /* Build configuration list for PBXNativeTarget "TextChatUIExample" */;
+			buildPhases = (
+				4595FE2C1C094CEC001EC045 /* Sources */,
+				4595FE2D1C094CEC001EC045 /* Frameworks */,
+				4595FE2E1C094CEC001EC045 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TextChatUIExample;
+			productName = ConversationUIExample;
+			productReference = 4595FE301C094CEC001EC045 /* TextChatUIExample.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4595FE281C094CEC001EC045 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0710;
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = Eonil;
+				TargetAttributes = {
+					4595FE2F1C094CEC001EC045 = {
+						CreatedOnToolsVersion = 7.1.1;
+					};
+				};
+			};
+			buildConfigurationList = 4595FE2B1C094CEC001EC045 /* Build configuration list for PBXProject "TextChatUIExample" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4595FE271C094CEC001EC045;
+			productRefGroup = 4595FE311C094CEC001EC045 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4595FE2F1C094CEC001EC045 /* TextChatUIExample */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4595FE2E1C094CEC001EC045 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				456DE6A51C09CF6000376103 /* Default-568h@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4595FE2C1C094CEC001EC045 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				456DE6A91C0A084500376103 /* View1.swift in Sources */,
+				45973CBE1C0993A20061D0F6 /* ViewController2.swift in Sources */,
+				456DE6AB1C0A085200376103 /* ViewController3.swift in Sources */,
+				456DE6AD1C0AE19500376103 /* Utility1.swift in Sources */,
+				4595FE481C094DCD001EC045 /* Input1.swift in Sources */,
+				4595FE461C094DB3001EC045 /* Cell1.swift in Sources */,
+				456DE6A71C09ED5900376103 /* Debug1.swift in Sources */,
+				45973CC01C0996A30061D0F6 /* KeyboardFrameTrackingController.swift in Sources */,
+				4595FE361C094CEC001EC045 /* ViewController1.swift in Sources */,
+				45973CC21C099ED30061D0F6 /* Extensions1.swift in Sources */,
+				4595FE4C1C096186001EC045 /* Layout1.swift in Sources */,
+				4595FE4A1C094E3E001EC045 /* Conversation1.swift in Sources */,
+				4595FE341C094CEC001EC045 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		4595FE401C094CEC001EC045 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4595FE411C094CEC001EC045 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4595FE431C094CEC001EC045 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = TextChatUIExample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Eonil.TextChatUIExample;
+				PRODUCT_NAME = TextChatUIExample;
+			};
+			name = Debug;
+		};
+		4595FE441C094CEC001EC045 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = TextChatUIExample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Eonil.TextChatUIExample;
+				PRODUCT_NAME = TextChatUIExample;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4595FE2B1C094CEC001EC045 /* Build configuration list for PBXProject "TextChatUIExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4595FE401C094CEC001EC045 /* Debug */,
+				4595FE411C094CEC001EC045 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4595FE421C094CEC001EC045 /* Build configuration list for PBXNativeTarget "TextChatUIExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4595FE431C094CEC001EC045 /* Debug */,
+				4595FE441C094CEC001EC045 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4595FE281C094CEC001EC045 /* Project object */;
+}
