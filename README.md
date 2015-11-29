@@ -59,7 +59,7 @@ to do the job.
 
 	-	AutosizingTableExample. Shows how to enable autoresizing in tables and cells.
 	-	UICollectionViewCustomLayout. Shows how to employ custom layout and dynamic cell resizing based on content size with manual layout.
-
+	-	ChatUIExample. Shows fully-fledged chat UI. This shows input box, and supports scrolling reaction by keyboard appearance.
 
 
 
