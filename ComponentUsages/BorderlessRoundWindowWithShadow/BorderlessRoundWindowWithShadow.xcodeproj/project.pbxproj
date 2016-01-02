@@ -37,7 +37,10 @@
 				45A3B47119EA513A00917AED /* ExampleApplicationController.swift */,
 				45D8986719E9B008005C8D2D /* Products */,
 			);
+			indentWidth = 4;
 			sourceTree = "<group>";
+			tabWidth = 4;
+			usesTabs = 0;
 		};
 		45D8986719E9B008005C8D2D /* Products */ = {
 			isa = PBXGroup;
