@@ -17,22 +17,22 @@ class ExampleApplicationController: NSObject, NSApplicationDelegate {
 	class ExampleController {
 		let	window1	=	NSWindow()
 		init(){
-            window1.backgroundColor				=	NSColor.whiteColor()
-            window1.opaque						=	false
-            window1.styleMask					=	NSResizableWindowMask
-                								|	NSTitledWindowMask
-                								|	NSFullSizeContentViewWindowMask
-            window1.movableByWindowBackground	=	true
-            window1.titlebarAppearsTransparent 	= 	true
-            window1.titleVisibility				=	.Hidden
-            window1.showsToolbarButton			=	false
-            window1.standardWindowButton(NSWindowButton.FullScreenButton)?.hidden	=	true
-            window1.standardWindowButton(NSWindowButton.MiniaturizeButton)?.hidden	=	true
-            window1.standardWindowButton(NSWindowButton.CloseButton)?.hidden		=	true
-            window1.standardWindowButton(NSWindowButton.ZoomButton)?.hidden			=	true
+			window1.backgroundColor				=	NSColor.whiteColor()
+			window1.opaque						=	false
+			window1.styleMask					=	NSResizableWindowMask
+												|	NSTitledWindowMask
+												|	NSFullSizeContentViewWindowMask
+			window1.movableByWindowBackground	=	true
+			window1.titlebarAppearsTransparent	=	true
+			window1.titleVisibility				=	.Hidden
+			window1.showsToolbarButton			=	false
+			window1.standardWindowButton(NSWindowButton.FullScreenButton)?.hidden	=	true
+			window1.standardWindowButton(NSWindowButton.MiniaturizeButton)?.hidden	=	true
+			window1.standardWindowButton(NSWindowButton.CloseButton)?.hidden		=	true
+			window1.standardWindowButton(NSWindowButton.ZoomButton)?.hidden			=	true
 
-            window1.setFrame(CGRect(x: 400, y: 0, width: 400, height: 500), display: true)
-            window1.makeKeyAndOrderFront(self)
+			window1.setFrame(CGRect(x: 400, y: 0, width: 400, height: 500), display: true)
+			window1.makeKeyAndOrderFront(self)
 		}
 	}
 	let	example1	=	ExampleController()
