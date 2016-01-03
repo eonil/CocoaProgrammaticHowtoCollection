@@ -43,6 +43,9 @@
       <FileRef
          location = "group:ApplicationMenu/ApplicationMenu.xcodeproj">
       </FileRef>
+      <FileRef
+         location = "group:NSTextViewWithCustomInactiveSelectionBackgroundColor/NSTextViewWithCustomInactiveSelectionBackgroundColor.xcodeproj">
+      </FileRef>
    </Group>
    <Group
       location = "group:ComponentUsagesInObjectiveC"
