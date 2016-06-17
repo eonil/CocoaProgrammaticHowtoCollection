@@ -58,10 +58,19 @@ to do the job.
 
 	Contains iOS stuff examples. Written in Swift and tested in iOS 8.0.
 
-	-	AutosizingTableExample. Shows how to enable autoresizing in tables and cells.
-	-	UICollectionViewCustomLayout. Shows how to employ custom layout and dynamic cell resizing based on content size with manual layout.
-	-	ChatUIExample. Shows fully-fledged chat UI. This shows input box, and supports scrolling reaction by keyboard appearance.
-	-	ResizingCollectionViewCellExample. Shows how to make resizing cell with `UICollectionView`. This is different with `reloading` because this technique does not involve cross-fade animation or reinstantiation of cell views. So you even can keep a `UITextView` in it while keeping it working as first-responder.
+	- AutosizingTableExample. Shows how to enable autoresizing in tables 
+          and cells.
+	- UICollectionViewCustomLayout. Shows how to employ custom layout and 
+          dynamic cell resizing based on content size with manual layout.
+	- ChatUIExample. Shows fully-fledged chat UI. This shows input box, 
+          and supports scrolling reaction by keyboard appearance.
+	- ResizingCollectionViewCellExample. Shows how to make resizing cell 
+          with `UICollectionView`. This is different with `reloading` because 
+          this technique does not involve cross-fade animation or 
+          reinstantiation of cell views. So you even can keep a `UITextView` 
+          in it while keeping it working as first-responder.
+        - `AutoLayoutWithStackViewAndScrollView`. Shows how to use
+          `UIStackView` and `UIScrollView` to layout easily.
 
 
 
