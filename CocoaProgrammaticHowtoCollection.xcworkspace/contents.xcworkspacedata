@@ -23,6 +23,9 @@
          location = "group:OutlineViewExampleWithViewBasedTechnique/OutlineViewExample.xcodeproj">
       </FileRef>
       <FileRef
+         location = "group:OutlineViewWithTreeController/OutlineViewWithTreeController.xcodeproj">
+      </FileRef>
+      <FileRef
          location = "group:BorderlessRoundWindowWithShadow/BorderlessRoundWindowWithShadow.xcodeproj">
       </FileRef>
       <FileRef
@@ -86,7 +89,22 @@
       location = "group:iOSExamples"
       name = "iOSExamples">
       <FileRef
+         location = "group:AutoLayoutWithStackViewAndScrollView/AutoLayoutWithStackViewAndScrollView.xcodeproj">
+      </FileRef>
+      <FileRef
          location = "group:AutosizingTableExample/AutosizingTableExample.xcodeproj">
+      </FileRef>
+      <FileRef
+         location = "group:CameraDisplay/CameraDisplay.xcodeproj">
+      </FileRef>
+      <FileRef
+         location = "group:UICollectionViewCustomLayout/UICollectionViewCustomLayout.xcodeproj">
+      </FileRef>
+      <FileRef
+         location = "group:TextChatUIExample/TextChatUIExample.xcodeproj">
+      </FileRef>
+      <FileRef
+         location = "group:ResizingCollectionViewCellExample/ResizingCollectionViewCellExample.xcodeproj">
       </FileRef>
    </Group>
 </Workspace>
