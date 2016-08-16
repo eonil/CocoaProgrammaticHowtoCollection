@@ -1,7 +1,8 @@
+// Chui Tey (`teyc`)
+
 import Cocoa
 
-final class Band: NSObject
-{
+final class Band: NSObject {
     init(title: String, songs: [String]) {
         self.title = title
         for song in songs {
@@ -9,22 +10,21 @@ final class Band: NSObject
         }
     }
     
-    var title : String
+    var title: String
     var isSong = false
     var songs: [Song] = []
     
     func childNodes() -> AnyObject? {
-        return songs;
+        return songs
     }
 }
 
-final class Song : NSObject
-{
+final class Song: NSObject {
     init(_ title: String) {
         self.title = title
     }
     
-    var title : String
+    var title: String
     var isSong = true
     
     func childNodes() -> AnyObject? {
@@ -33,16 +33,15 @@ final class Song : NSObject
     
 }
 
-final class DataContext: NSObject
-{
-    var playlist : [Band] = [
+final class DataContext: NSObject {
+    var playlist: [Band] = [
         Band(title: "Wham", songs: ["Last Christmas", "Wake me up"]),
         Band(title: "Beatles", songs: ["My Sweet Krishna", "Mister Postman","Seventeen"])
     ]
     
 }
 
-final class ExampleOutlineViewController : NSViewController, NSOutlineViewDataSource, NSOutlineViewDelegate {
+final class ExampleOutlineViewController: NSViewController, NSOutlineViewDataSource, NSOutlineViewDelegate {
     
     let scrollView = NSScrollView()
     let	outlineView	= NSOutlineView()
@@ -75,14 +74,12 @@ final class ExampleOutlineViewController : NSViewController, NSOutlineViewDataSo
         self.view = scrollView
     }
     
-    private func configure(column: NSTableColumn)
-    {
+    private func configure(column: NSTableColumn) {
         column.width = 250
         column.title = "Song title"
     }
     
-    private func configure(outlineView: NSOutlineView)
-    {
+    private func configure(outlineView: NSOutlineView) {
         outlineView.addTableColumn(column)
         outlineView.outlineTableColumn = column
     }
@@ -125,9 +122,9 @@ final class ApplicationController: NSObject, NSApplicationDelegate {
     let	window1	=	NSWindow()
     
     func applicationDidFinishLaunching(aNotification: NSNotification) {
-        window1.contentViewController		=	ExampleOutlineViewController()
+        window1.contentViewController = ExampleOutlineViewController()
         
-        window1.styleMask					=	NSResizableWindowMask | NSTitledWindowMask | NSClosableWindowMask
+        window1.styleMask = NSResizableWindowMask | NSTitledWindowMask | NSClosableWindowMask
         window1.setFrame(CGRect(x: 0, y: 0, width: 800, height: 500), display: false)
         
         window1.makeKeyAndOrderFront(self)
@@ -135,7 +132,7 @@ final class ApplicationController: NSObject, NSApplicationDelegate {
     }
     
     func applicationShouldTerminateAfterLastWindowClosed(sender: NSApplication) -> Bool {
-        return true;
+        return true
     }
     
 }
