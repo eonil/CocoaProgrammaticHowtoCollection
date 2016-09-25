@@ -3,6 +3,7 @@ Eonil/CocoaProgrammaticHowtoCollection
 2014/06/13
 2015/01/10
 2015/11/07
+2016/09/25
 Hoon H.
 
 This shows how to create a Cocoa GUI app using only program code with no Interface Builder / Storyoard
@@ -28,7 +29,7 @@ to do the job.
 - ComponentUsages 
 
 	Contains Swift examples. Written and tested in OSX 10.11. Some examples will continue to work also in 10.10
-	but I don't track which. Now all examples require Swift 2.1 to compile.
+	but I didn't test them. Now all examples require Swift 3 to compile.
 
 	- `Bootstrapping`. How to make an empty AppKit application.
 	- `SplitViewExample`. How to use `NSSplitViewController`.
@@ -44,7 +45,7 @@ to do the job.
 	- `NSToolbar`. How to make and use `NSToolbar` within an `NSWindow` properly.
 	- `ApplicationMenu`. How to replicate system-default Cocoa app menu.
 	- `NSTextViewWithCustomInactiveSelectionBackgroundColor`. How to use custom inactive selection background color with `NSTextView`.
-
+    - And some more... (not listed)
 
 
 - ComponentUsagesInObjectiveC
@@ -63,7 +64,8 @@ to do the job.
 
 - iOSExamples
 
-	Contains iOS stuff examples. Written in Swift and tested in iOS 8.0.
+	Contains iOS stuff examples. Written in Swift 2.x and tested in iOS 8.0.
+    **NOT YET UPDATED FOR SWIFT 3**
 
     - `AutoLayoutWithStackViewAndScrollView`.
 	- `AutosizingTableExample`. Shows how to enable autoresizing in tables 
