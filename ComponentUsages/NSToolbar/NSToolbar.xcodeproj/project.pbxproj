@@ -10,27 +10,9 @@
 		4596D0DD1B2BEE3100B77907 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4596D0DC1B2BEE3100B77907 /* main.swift */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		45FECE241BEE0FD500C9C3E0 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 45FECE1F1BEE0FD500C9C3E0 /* ApplicationMenu.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 454270351BEDEF4A00DB68F0;
-			remoteInfo = ApplicationMenu;
-		};
-		45FECE261BEE0FD500C9C3E0 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 45FECE1F1BEE0FD500C9C3E0 /* ApplicationMenu.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 454270441BEDEF4A00DB68F0;
-			remoteInfo = ApplicationMenuUITests;
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXFileReference section */
 		4596D0931B2BE2FA00B77907 /* NSToolbar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NSToolbar.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4596D0DC1B2BEE3100B77907 /* main.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
-		45FECE1F1BEE0FD500C9C3E0 /* ApplicationMenu.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = ApplicationMenu.xcodeproj; path = ../ApplicationMenu/ApplicationMenu.xcodeproj; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,7 +29,6 @@
 		4596D08A1B2BE2FA00B77907 = {
 			isa = PBXGroup;
 			children = (
-				45FECE1F1BEE0FD500C9C3E0 /* ApplicationMenu.xcodeproj */,
 				4596D0DC1B2BEE3100B77907 /* main.swift */,
 				4596D0941B2BE2FA00B77907 /* Products */,
 			);
@@ -57,15 +38,6 @@
 			isa = PBXGroup;
 			children = (
 				4596D0931B2BE2FA00B77907 /* NSToolbar.app */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		45FECE201BEE0FD500C9C3E0 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				45FECE251BEE0FD500C9C3E0 /* ApplicationMenu.app */,
-				45FECE271BEE0FD500C9C3E0 /* ApplicationMenu.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -97,11 +69,12 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0710;
-				LastUpgradeCheck = 0710;
+				LastUpgradeCheck = 0800;
 				ORGANIZATIONNAME = Eonil;
 				TargetAttributes = {
 					4596D0921B2BE2FA00B77907 = {
 						CreatedOnToolsVersion = 6.3.2;
+						LastSwiftMigration = 0800;
 					};
 				};
 			};
@@ -116,35 +89,12 @@
 			mainGroup = 4596D08A1B2BE2FA00B77907;
 			productRefGroup = 4596D0941B2BE2FA00B77907 /* Products */;
 			projectDirPath = "";
-			projectReferences = (
-				{
-					ProductGroup = 45FECE201BEE0FD500C9C3E0 /* Products */;
-					ProjectRef = 45FECE1F1BEE0FD500C9C3E0 /* ApplicationMenu.xcodeproj */;
-				},
-			);
 			projectRoot = "";
 			targets = (
 				4596D0921B2BE2FA00B77907 /* NSToolbar */,
 			);
 		};
 /* End PBXProject section */
-
-/* Begin PBXReferenceProxy section */
-		45FECE251BEE0FD500C9C3E0 /* ApplicationMenu.app */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.application;
-			path = ApplicationMenu.app;
-			remoteRef = 45FECE241BEE0FD500C9C3E0 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		45FECE271BEE0FD500C9C3E0 /* ApplicationMenu.xctest */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.cfbundle;
-			path = ApplicationMenu.xctest;
-			remoteRef = 45FECE261BEE0FD500C9C3E0 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		4596D0911B2BE2FA00B77907 /* Resources */ = {
@@ -181,8 +131,10 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				CODE_SIGN_IDENTITY = "-";
@@ -226,8 +178,10 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				CODE_SIGN_IDENTITY = "-";
@@ -246,6 +200,7 @@
 				MACOSX_DEPLOYMENT_TARGET = 10.10;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 			};
 			name = Release;
 		};
@@ -255,6 +210,7 @@
 				COMBINE_HIDPI_IMAGES = YES;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
 				PRODUCT_NAME = NSToolbar;
+				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
@@ -264,6 +220,7 @@
 				COMBINE_HIDPI_IMAGES = YES;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
 				PRODUCT_NAME = NSToolbar;
+				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};
