@@ -24,42 +24,42 @@ import Cocoa
 //
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 final class LayoutManager1: NSLayoutManager {
-	override func fillBackgroundRectArray(rectArray: UnsafePointer<NSRect>, count rectCount: Int, forCharacterRange charRange: NSRange, color: NSColor) {
-		let color1 = color == NSColor.secondarySelectedControlColor() ? NSColor.redColor() : color
-		color1.setFill()
-		super.fillBackgroundRectArray(rectArray, count: rectCount, forCharacterRange: charRange, color: color1)
-		color.setFill()
-	}
+    override func fillBackgroundRectArray(_ rectArray: UnsafePointer<NSRect>, count rectCount: Int, forCharacterRange charRange: NSRange, color: NSColor) {
+        let color1 = color == NSColor.selectedTextBackgroundColor ? NSColor.red : color
+        color1.setFill()
+        super.fillBackgroundRectArray(rectArray, count: rectCount, forCharacterRange: charRange, color: color1)
+        color.setFill()
+    }
 }
 
 final class AppDelegate: NSObject, NSApplicationDelegate {
-	let mainWindow = NSWindow(
-		contentRect: CGRect(x: 100, y: 100, width: 400, height: 400),
-		styleMask: NSResizableWindowMask | NSTitledWindowMask,
-		backing: NSBackingStoreType.Buffered,
-		`defer`: false)
-	let layoutManager1 = LayoutManager1()
-	func applicationDidFinishLaunching(aNotification: NSNotification) {
-		let scrollView = NSScrollView()
-		scrollView.hasVerticalScroller = true
-		scrollView.hasHorizontalScroller = true
-		let textView = NSTextView()
-		textView.frame = CGRect(x: 0, y: 0, width: 300, height: 1000)
-		textView.textContainer!.replaceLayoutManager(layoutManager1)
-		textView.string = "ABCD"
-		textView.verticallyResizable = true
-		scrollView.documentView = textView
-		mainWindow.contentView = scrollView
-		mainWindow.makeKeyAndOrderFront(self)
-		mainWindow.makeFirstResponder(textView)
-	}
+    let mainWindow = NSWindow(
+        contentRect: CGRect(x: 100, y: 100, width: 400, height: 400),
+        styleMask: NSWindowStyleMask([.resizable, .titled]),
+        backing: NSBackingStoreType.buffered,
+        defer: false)
+    let layoutManager1 = LayoutManager1()
+    func applicationDidFinishLaunching(_ aNotification: Notification) {
+        let scrollView = NSScrollView()
+        scrollView.hasVerticalScroller = true
+        scrollView.hasHorizontalScroller = true
+        let textView = NSTextView()
+        textView.frame = CGRect(x: 0, y: 0, width: 300, height: 1000)
+        textView.textContainer!.replaceLayoutManager(layoutManager1)
+        textView.string = "ABCD"
+        textView.isVerticallyResizable = true
+        scrollView.documentView = textView
+        mainWindow.contentView = scrollView
+        mainWindow.makeKeyAndOrderFront(self)
+        mainWindow.makeFirstResponder(textView)
+    }
 }
 
 autoreleasepool {
-	let app = NSApplication.sharedApplication()
-	let appDelegate = AppDelegate()
-	app.delegate = appDelegate
-	app.run()
+    let app = NSApplication.shared()
+    let appDelegate = AppDelegate()
+    app.delegate = appDelegate
+    app.run()
 }
 
 
