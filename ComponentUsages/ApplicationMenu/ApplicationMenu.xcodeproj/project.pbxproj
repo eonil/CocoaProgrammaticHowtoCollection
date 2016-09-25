@@ -10,31 +10,13 @@
 		45FECE1E1BEE0F4D00C9C3E0 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45FECE1D1BEE0F4D00C9C3E0 /* main.swift */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		454270451BEDEF4A00DB68F0 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 4542702D1BEDEF4A00DB68F0 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 454270341BEDEF4A00DB68F0;
-			remoteInfo = AppMenuTest2;
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXFileReference section */
 		454270351BEDEF4A00DB68F0 /* ApplicationMenu.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ApplicationMenu.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		454270441BEDEF4A00DB68F0 /* ApplicationMenu.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ApplicationMenu.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		45FECE1D1BEE0F4D00C9C3E0 /* main.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		454270321BEDEF4A00DB68F0 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		454270411BEDEF4A00DB68F0 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -56,7 +38,6 @@
 			isa = PBXGroup;
 			children = (
 				454270351BEDEF4A00DB68F0 /* ApplicationMenu.app */,
-				454270441BEDEF4A00DB68F0 /* ApplicationMenu.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -81,24 +62,6 @@
 			productReference = 454270351BEDEF4A00DB68F0 /* ApplicationMenu.app */;
 			productType = "com.apple.product-type.application";
 		};
-		454270431BEDEF4A00DB68F0 /* ApplicationMenuUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 454270501BEDEF4A00DB68F0 /* Build configuration list for PBXNativeTarget "ApplicationMenuUITests" */;
-			buildPhases = (
-				454270401BEDEF4A00DB68F0 /* Sources */,
-				454270411BEDEF4A00DB68F0 /* Frameworks */,
-				454270421BEDEF4A00DB68F0 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				454270461BEDEF4A00DB68F0 /* PBXTargetDependency */,
-			);
-			name = ApplicationMenuUITests;
-			productName = AppMenuTest2UITests;
-			productReference = 454270441BEDEF4A00DB68F0 /* ApplicationMenu.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -106,15 +69,12 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0710;
-				LastUpgradeCheck = 0710;
+				LastUpgradeCheck = 0800;
 				ORGANIZATIONNAME = Eonil;
 				TargetAttributes = {
 					454270341BEDEF4A00DB68F0 = {
 						CreatedOnToolsVersion = 7.1;
-					};
-					454270431BEDEF4A00DB68F0 = {
-						CreatedOnToolsVersion = 7.1;
-						TestTargetID = 454270341BEDEF4A00DB68F0;
+						LastSwiftMigration = 0800;
 					};
 				};
 			};
@@ -132,20 +92,12 @@
 			projectRoot = "";
 			targets = (
 				454270341BEDEF4A00DB68F0 /* ApplicationMenu */,
-				454270431BEDEF4A00DB68F0 /* ApplicationMenuUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
 		454270331BEDEF4A00DB68F0 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		454270421BEDEF4A00DB68F0 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -163,22 +115,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		454270401BEDEF4A00DB68F0 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		454270461BEDEF4A00DB68F0 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 454270341BEDEF4A00DB68F0 /* ApplicationMenu */;
-			targetProxy = 454270451BEDEF4A00DB68F0 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		4542704B1BEDEF4A00DB68F0 /* Debug */ = {
@@ -194,8 +131,10 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				CODE_SIGN_IDENTITY = "-";
@@ -238,8 +177,10 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				CODE_SIGN_IDENTITY = "-";
@@ -258,6 +199,7 @@
 				MACOSX_DEPLOYMENT_TARGET = 10.11;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 			};
 			name = Release;
 		};
@@ -270,6 +212,7 @@
 				MACOSX_DEPLOYMENT_TARGET = 10.11;
 				PRODUCT_BUNDLE_IDENTIFIER = Eonil.AppMenuTest2;
 				PRODUCT_NAME = ApplicationMenu;
+				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
@@ -282,32 +225,7 @@
 				MACOSX_DEPLOYMENT_TARGET = 10.11;
 				PRODUCT_BUNDLE_IDENTIFIER = Eonil.AppMenuTest2;
 				PRODUCT_NAME = ApplicationMenu;
-			};
-			name = Release;
-		};
-		454270511BEDEF4A00DB68F0 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				COMBINE_HIDPI_IMAGES = YES;
-				INFOPLIST_FILE = AppMenuTest2UITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = Eonil.AppMenuTest2UITests;
-				PRODUCT_NAME = ApplicationMenu;
-				TEST_TARGET_NAME = AppMenuTest2;
-				USES_XCTRUNNER = YES;
-			};
-			name = Debug;
-		};
-		454270521BEDEF4A00DB68F0 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				COMBINE_HIDPI_IMAGES = YES;
-				INFOPLIST_FILE = AppMenuTest2UITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = Eonil.AppMenuTest2UITests;
-				PRODUCT_NAME = ApplicationMenu;
-				TEST_TARGET_NAME = AppMenuTest2;
-				USES_XCTRUNNER = YES;
+				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};
@@ -328,15 +246,6 @@
 			buildConfigurations = (
 				4542704E1BEDEF4A00DB68F0 /* Debug */,
 				4542704F1BEDEF4A00DB68F0 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		454270501BEDEF4A00DB68F0 /* Build configuration list for PBXNativeTarget "ApplicationMenuUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				454270511BEDEF4A00DB68F0 /* Debug */,
-				454270521BEDEF4A00DB68F0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
