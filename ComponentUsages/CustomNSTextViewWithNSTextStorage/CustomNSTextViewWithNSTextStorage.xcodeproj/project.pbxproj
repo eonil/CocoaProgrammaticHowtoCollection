@@ -79,6 +79,7 @@
 				TargetAttributes = {
 					45D8986519E9B008005C8D2D = {
 						CreatedOnToolsVersion = 6.1;
+						LastSwiftMigration = 0800;
 					};
 				};
 			};
@@ -209,6 +210,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "Eonil.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = CustomNSTextViewWithNSTextStorage;
+				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
@@ -220,6 +222,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "Eonil.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = CustomNSTextViewWithNSTextStorage;
+				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};
