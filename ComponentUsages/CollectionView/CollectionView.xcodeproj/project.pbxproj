@@ -74,6 +74,7 @@
 				TargetAttributes = {
 					45D8986519E9B008005C8D2D = {
 						CreatedOnToolsVersion = 6.1;
+						LastSwiftMigration = 0800;
 					};
 				};
 			};
@@ -201,6 +202,7 @@
 				COMBINE_HIDPI_IMAGES = YES;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
 				PRODUCT_NAME = CollectionView;
+				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
@@ -210,6 +212,7 @@
 				COMBINE_HIDPI_IMAGES = YES;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
 				PRODUCT_NAME = CollectionView;
+				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};
