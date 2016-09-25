@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Scheme
-   LastUpgradeVersion = "0710"
+   LastUpgradeVersion = "0800"
    version = "1.3">
    <BuildAction
       parallelizeBuildables = "YES"
@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "45D8986519E9B008005C8D2D"
-               BuildableName = "TextView.app"
-               BlueprintName = "TextView"
-               ReferencedContainer = "container:TextView.xcodeproj">
+               BuildableName = "TextViewExample.app"
+               BlueprintName = "TextViewExample"
+               ReferencedContainer = "container:TextViewExample.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,9 +33,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "45D8986519E9B008005C8D2D"
-            BuildableName = "TextView.app"
-            BlueprintName = "TextView"
-            ReferencedContainer = "container:TextView.xcodeproj">
+            BuildableName = "TextViewExample.app"
+            BlueprintName = "TextViewExample"
+            ReferencedContainer = "container:TextViewExample.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -56,9 +56,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "45D8986519E9B008005C8D2D"
-            BuildableName = "TextView.app"
-            BlueprintName = "TextView"
-            ReferencedContainer = "container:TextView.xcodeproj">
+            BuildableName = "TextViewExample.app"
+            BlueprintName = "TextViewExample"
+            ReferencedContainer = "container:TextViewExample.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -75,9 +75,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "45D8986519E9B008005C8D2D"
-            BuildableName = "TextView.app"
-            BlueprintName = "TextView"
-            ReferencedContainer = "container:TextView.xcodeproj">
+            BuildableName = "TextViewExample.app"
+            BlueprintName = "TextViewExample"
+            ReferencedContainer = "container:TextViewExample.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>
