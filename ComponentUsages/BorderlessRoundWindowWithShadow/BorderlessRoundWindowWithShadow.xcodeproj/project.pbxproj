@@ -12,7 +12,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		45A3B47119EA513A00917AED /* ExampleApplicationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExampleApplicationController.swift; sourceTree = "<group>"; usesTabs = 1; };
+		45A3B47119EA513A00917AED /* ExampleApplicationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExampleApplicationController.swift; sourceTree = "<group>"; usesTabs = 0; };
 		45A3B47219EA513A00917AED /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		45A3B47319EA513A00917AED /* main.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		45D8986619E9B008005C8D2D /* BorderlessRoundWindowWithShadow.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BorderlessRoundWindowWithShadow.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -82,6 +82,7 @@
 				TargetAttributes = {
 					45D8986519E9B008005C8D2D = {
 						CreatedOnToolsVersion = 6.1;
+						LastSwiftMigration = 0800;
 					};
 				};
 			};
@@ -212,6 +213,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "Eonil.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = BorderlessRoundWindowWithShadow;
+				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
@@ -223,6 +225,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "Eonil.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = BorderlessRoundWindowWithShadow;
+				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};
