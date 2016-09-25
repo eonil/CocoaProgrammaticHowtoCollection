@@ -1,3 +1,4 @@
+// OutlineViewWithTreeController
 // Chui Tey (`teyc`)
 
 import Cocoa
@@ -15,7 +16,7 @@ final class Band: NSObject {
     var songs: [Song] = []
     
     func childNodes() -> AnyObject? {
-        return songs
+        return songs as AnyObject?
     }
 }
 
@@ -44,7 +45,7 @@ final class DataContext: NSObject {
 final class ExampleOutlineViewController: NSViewController, NSOutlineViewDataSource, NSOutlineViewDelegate {
     
     let scrollView = NSScrollView()
-    let	outlineView	= NSOutlineView()
+    let outlineView = NSOutlineView()
     let column = NSTableColumn(identifier: "DataCell")
     let treeController = NSTreeController()
     let dataContext = DataContext()
@@ -56,17 +57,17 @@ final class ExampleOutlineViewController: NSViewController, NSOutlineViewDataSou
         configure(treeController)
         
         treeController.bind(NSContentArrayBinding,
-                            toObject: dataContext,
+                            to: dataContext,
                             withKeyPath: "playlist",
                             options: nil)
         
         outlineView.bind(NSContentBinding   ,
-                         toObject: treeController,
+                         to: treeController,
                          withKeyPath: "arrangedObjects",
                          options: nil)
         
         column.bind(NSValueBinding,
-                    toObject: treeController,
+                    to: treeController,
                     withKeyPath: "arrangedObjects.title",
                     options: nil)
         
@@ -74,29 +75,29 @@ final class ExampleOutlineViewController: NSViewController, NSOutlineViewDataSou
         self.view = scrollView
     }
     
-    private func configure(column: NSTableColumn) {
+    fileprivate func configure(_ column: NSTableColumn) {
         column.width = 250
         column.title = "Song title"
     }
     
-    private func configure(outlineView: NSOutlineView) {
+    fileprivate func configure(_ outlineView: NSOutlineView) {
         outlineView.addTableColumn(column)
         outlineView.outlineTableColumn = column
     }
     
-    private func configure(treeController: NSTreeController) {
+    fileprivate func configure(_ treeController: NSTreeController) {
         treeController.childrenKeyPath = "childNodes"
         treeController.leafKeyPath = "isSong"
     }
     
-    func outlineView(outlineView: NSOutlineView,
-                     viewForTableColumn tableColumn: NSTableColumn?,
-                     item: AnyObject) -> NSView? {
+    func outlineView(_ outlineView: NSOutlineView,
+                     viewFor tableColumn: NSTableColumn?,
+                     item: Any) -> NSView? {
         
         let columnIdentifier = tableColumn!.identifier
         
         // Use recycled NSTableCellViews if available
-        if let cell = outlineView.makeViewWithIdentifier(columnIdentifier, owner: self) as? NSTableCellView {
+        if let cell = outlineView.make(withIdentifier: columnIdentifier, owner: self) as? NSTableCellView {
             return cell
         }
         
@@ -117,30 +118,30 @@ final class ExampleOutlineViewController: NSViewController, NSOutlineViewDataSou
 }
 
 
-///	MARK:
+///    MARK:
 final class ApplicationController: NSObject, NSApplicationDelegate {
-    let	window1	=	NSWindow()
+    let window1 = NSWindow()
     
-    func applicationDidFinishLaunching(aNotification: NSNotification) {
+    func applicationDidFinishLaunching(_ aNotification: Notification) {
         window1.contentViewController = ExampleOutlineViewController()
-        
-        window1.styleMask = NSResizableWindowMask | NSTitledWindowMask | NSClosableWindowMask
+
+        window1.styleMask = NSWindowStyleMask([.resizable, .titled, .closable])
         window1.setFrame(CGRect(x: 0, y: 0, width: 800, height: 500), display: false)
         
         window1.makeKeyAndOrderFront(self)
         
     }
     
-    func applicationShouldTerminateAfterLastWindowClosed(sender: NSApplication) -> Bool {
+    func applicationShouldTerminateAfterLastWindowClosed(_ sender: NSApplication) -> Bool {
         return true
     }
     
 }
 
 autoreleasepool { () -> () in
-    let	app1		=	NSApplication.sharedApplication()
-    let	con1		=	ApplicationController()
+    let app1 = NSApplication.shared()
+    let con1 = ApplicationController()
     
-    app1.delegate	=	con1
+    app1.delegate = con1
     app1.run()
 }
